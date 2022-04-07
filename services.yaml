@@ -3,17 +3,3 @@ services:
   _defaults:
     public: false
     autowire: true
-
-  OxidEsales\Eshop\Core\Registry:
-    class: OxidEsales\Eshop\Core\Registry
-
-  OxidEsales\Eshop\Core\Request:
-    factory: [ '@OxidEsales\Eshop\Core\Registry', 'getRequest' ]
-
-  Amazing\AmbreModule\Service\:
-    resource: 'src/Service/*'
-    public: true
-
-  Amazing\AmbreModule\Subscriber\BeforeModelUpdate:
-    class: Amazing\AmbreModule\Subscriber\BeforeModelUpdate
-    tags: [ 'kernel.event_subscriber' ]
