@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Core;
+namespace Amazing\AmbreModule\Tests\Unit\Core;
 
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamDirectory;
 use OxidEsales\Eshop\Core\Config;
 use OxidEsales\Eshop\Core\Registry as EshopRegistry;
-use OxidEsales\ModuleTemplate\Core\TmpCleaner;
+use Amazing\AmbreModule\Core\TmpCleaner;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 /**

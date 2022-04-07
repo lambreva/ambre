@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Service;
+namespace Amazing\AmbreModule\Tests\Unit\Service;
 
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use Amazing\AmbreModule\Service\ModuleSettings;
+use Amazing\AmbreModule\Traits\ServiceContainer;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 final class ModuleSettingsTest extends UnitTestCase

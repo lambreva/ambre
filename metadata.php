@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
@@ -14,27 +14,27 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'          => 'oe_moduletemplate',
-    'title'       => 'OxidEsales Module Template (OETM)',
+    'id'          => 'amz_ambre',
+    'title'       => 'CHANGE MY TITLE',
     'description' =>  '',
     'thumbnail'   => 'out/pictures/logo.png',
     'version'     => '0.0.1',
-    'author'      => 'OXID eSales AG',
+    'author'      => 'Amazing AG',
     'url'         => '',
     'email'       => '',
     'extend'      => [
-        \OxidEsales\Eshop\Application\Model\User::class => \OxidEsales\ModuleTemplate\Model\User::class,
-        \OxidEsales\Eshop\Application\Controller\StartController::class => \OxidEsales\ModuleTemplate\Controller\StartController::class
+        \OxidEsales\Eshop\Application\Model\User::class => \Amazing\AmbreModule\Model\User::class,
+        \OxidEsales\Eshop\Application\Controller\StartController::class => \Amazing\AmbreModule\Controller\StartController::class
     ],
     'controllers' => [
-        'oetmgreeting' => \OxidEsales\ModuleTemplate\Controller\GreetingController::class
+        'oetmgreeting' => \Amazing\AmbreModule\Controller\GreetingController::class
     ],
     'templates'   => [
-        'greetingtemplate.tpl' => 'oe/moduletemplate/views/templates/greetingtemplate.tpl',
+        'greetingtemplate.tpl' => 'amz/ambre/views/templates/greetingtemplate.tpl',
     ],
     'events' => [
-        'onActivate' => '\OxidEsales\ModuleTemplate\Core\ModuleEvents::onActivate',
-        'onDeactivate' => '\OxidEsales\ModuleTemplate\Core\ModuleEvents::onDeactivate'
+        'onActivate' => '\Amazing\AmbreModule\Core\ModuleEvents::onActivate',
+        'onDeactivate' => '\Amazing\AmbreModule\Core\ModuleEvents::onDeactivate'
     ],
     'blocks'      => [
         [

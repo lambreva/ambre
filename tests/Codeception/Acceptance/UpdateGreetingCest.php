@@ -1,21 +1,21 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Codeception\Helper;
+namespace Amazing\AmbreModule\Tests\Codeception\Helper;
 
 use OxidEsales\Codeception\Module\Translation\Translator;
-use OxidEsales\ModuleTemplate\Core\Module as ModuleCore;
-use OxidEsales\ModuleTemplate\Tests\Codeception\AcceptanceTester;
+use Amazing\AmbreModule\Core\Module as ModuleCore;
+use Amazing\AmbreModule\Tests\Codeception\AcceptanceTester;
 
 /**
- * @group oe_moduletemplate
- * @group oe_moduletemplate_updategreeting
+ * @group amz_ambre
+ * @group amz_ambre_updategreeting
  */
 final class UpdateGreetingCest
 {

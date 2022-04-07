@@ -1,21 +1,21 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Controller;
+namespace Amazing\AmbreModule\Tests\Unit\Controller;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
-use OxidEsales\ModuleTemplate\Controller\GreetingController;
-use OxidEsales\ModuleTemplate\Core\Module as ModuleCore;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
-use OxidEsales\ModuleTemplate\Service\GreetingMessage;
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
-use OxidEsales\ModuleTemplate\Service\Repository;
+use Amazing\AmbreModule\Controller\GreetingController;
+use Amazing\AmbreModule\Core\Module as ModuleCore;
+use Amazing\AmbreModule\Model\GreetingTracker;
+use Amazing\AmbreModule\Service\GreetingMessage;
+use Amazing\AmbreModule\Service\ModuleSettings;
+use Amazing\AmbreModule\Service\Repository;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 /*

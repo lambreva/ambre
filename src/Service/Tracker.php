@@ -1,18 +1,18 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Service;
+namespace Amazing\AmbreModule\Service;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
-use OxidEsales\ModuleTemplate\Model\User as ModelUser;
-use OxidEsales\ModuleTemplate\Service\Repository as RepositoryService;
+use Amazing\AmbreModule\Model\GreetingTracker;
+use Amazing\AmbreModule\Model\User as ModelUser;
+use Amazing\AmbreModule\Service\Repository as RepositoryService;
 
 /**
  * @extendable-class

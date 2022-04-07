@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Codeception\Helper;
+namespace Amazing\AmbreModule\Tests\Codeception\Helper;
 
 use OxidEsales\Codeception\Module\Translation\Translator;
-use OxidEsales\ModuleTemplate\Tests\Codeception\AcceptanceTester;
+use Amazing\AmbreModule\Tests\Codeception\AcceptanceTester;
 
 /**
  * @group example

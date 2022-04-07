@@ -10,10 +10,10 @@ services:
   OxidEsales\Eshop\Core\Request:
     factory: [ '@OxidEsales\Eshop\Core\Registry', 'getRequest' ]
 
-  OxidEsales\ModuleTemplate\Service\:
+  Amazing\AmbreModule\Service\:
     resource: 'src/Service/*'
     public: true
 
-  OxidEsales\ModuleTemplate\Subscriber\BeforeModelUpdate:
-    class: OxidEsales\ModuleTemplate\Subscriber\BeforeModelUpdate
+  Amazing\AmbreModule\Subscriber\BeforeModelUpdate:
+    class: Amazing\AmbreModule\Subscriber\BeforeModelUpdate
     tags: [ 'kernel.event_subscriber' ]

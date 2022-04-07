@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
@@ -9,13 +9,13 @@
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Subscriber;
+namespace Amazing\AmbreModule\Subscriber;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
 use OxidEsales\EshopCommunity\Internal\Framework\Event\AbstractShopAwareEventSubscriber;
 use OxidEsales\EshopCommunity\Internal\Transition\ShopEvents\BeforeModelUpdateEvent;
-use OxidEsales\ModuleTemplate\Service\Tracker;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use Amazing\AmbreModule\Service\Tracker;
+use Amazing\AmbreModule\Traits\ServiceContainer;
 
 /**
  * @extendable-class

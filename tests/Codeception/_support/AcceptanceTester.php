@@ -1,18 +1,18 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Codeception;
+namespace Amazing\AmbreModule\Tests\Codeception;
 
 use OxidEsales\Codeception\Page\Home;
 use OxidEsales\Facts\Facts;
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use Amazing\AmbreModule\Service\ModuleSettings;
+use Amazing\AmbreModule\Traits\ServiceContainer;
 
 /**
  * Inherited Methods
@@ -82,7 +82,7 @@ final class AcceptanceTester extends \Codeception\Actor
     {
         $command = $active ? 'activate' : 'deactivate';
 
-        exec((new Facts())->getShopRootPath() . '/bin/oe-console oe:module:' . $command . ' oe_moduletemplate');
+        exec((new Facts())->getShopRootPath() . '/bin/oe-console oe:module:' . $command . ' amz_ambre');
     }
 
     public function resetGreetingTracker(): void

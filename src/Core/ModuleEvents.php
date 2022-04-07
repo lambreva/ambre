@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Core;
+namespace Amazing\AmbreModule\Core;
 
 use Exception;
 use OxidEsales\DoctrineMigrationWrapper\MigrationsBuilder;
@@ -50,6 +50,6 @@ final class ModuleEvents
     private static function executeModuleMigrations(): void
     {
         $migrations = (new MigrationsBuilder())->build();
-        $migrations->execute('migrations:migrate', 'oe_moduletemplate');
+        $migrations->execute('migrations:migrate', 'amz_ambre');
     }
 }

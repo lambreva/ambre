@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Model;
+namespace Amazing\AmbreModule\Tests\Unit\Model;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
 use OxidEsales\TestingLibrary\UnitTestCase;

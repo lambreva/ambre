@@ -3,10 +3,10 @@ name: Development
 on: [ push, pull_request ]
 
 env:
-  PACKAGE_NAME: 'oxid-esales/module-template'
-  MODULE_PATH: 'oe/moduletemplate'
-  SONARCLOUD_ORGANIZATION: 'oxid-esales'
-  SONARCLOUD_PROJECT_KEY: 'OXID-eSales_module-template'
+  PACKAGE_NAME: 'amazing/ambre-module'
+  MODULE_PATH: 'amz/ambre'
+  SONARCLOUD_ORGANIZATION: 'lambreva'
+  SONARCLOUD_PROJECT_KEY: 'lambreva_ambre'
 
 jobs:
   install_shop_with_module:
@@ -191,7 +191,7 @@ jobs:
       matrix:
         php: [ '7.4', '8.0' ]
         group:
-          - 'oe_moduletemplate'
+          - 'amz_ambre'
     needs: [ install_shop_with_module ]
     runs-on: ubuntu-latest
     steps:

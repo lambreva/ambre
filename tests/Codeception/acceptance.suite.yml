@@ -44,6 +44,6 @@ modules:
         depends: Db
     - \OxidEsales\Codeception\Module\Translation\TranslationsModule:
         shop_path: '%SHOP_SOURCE_PATH%'
-        paths: 'Application/views/flow,Application/views/admin,modules/oe/moduletemplate/views/admin,modules/oe/moduletemplate/translations'
+        paths: 'Application/views/flow,Application/views/admin,modules/amz/ambre/views/admin,modules/amz/ambre/translations'
 step_decorators:
     - \Codeception\Step\Retry

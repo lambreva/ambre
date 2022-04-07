@@ -1,18 +1,18 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Amazing AG. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Service;
+namespace Amazing\AmbreModule\Tests\Unit\Service;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
-use OxidEsales\ModuleTemplate\Service\Repository;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use Amazing\AmbreModule\Model\GreetingTracker;
+use Amazing\AmbreModule\Service\Repository;
+use Amazing\AmbreModule\Traits\ServiceContainer;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 final class RepositoryTest extends UnitTestCase
